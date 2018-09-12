@@ -77,13 +77,11 @@ nmap ,w :w<CR>
 nmap ,q :q!<CR>
 nmap ,f [I:let nr = input("Which one: ")<Bar>exe "normal " . nr ."[\t"<CR>
 nmap ,c :set nohlsearch<CR>z-
-"nmap ,of :VTreeExplore c:\svn\fbquran\trunk\fbquran\src<CR>
-"nmap ,oy :VTreeExplore c:\svn\yaktob\trunk\yaktob\src<CR>
-"nmap ,p :e! D:\My Documents\Visual Studio 2010\Projects\Swedish Scrapper 2005<CR> 
 nmap ,h :hide<CR>
 nmap ,e $a
 nmap <Space> <PageDown>
 nmap ,v <C-w>v<C-w><C-w>:new<CR><C-w>j:hide<CR>
+nmap ,n <C-w>w
 
 set arabicshape
 "python configuration
